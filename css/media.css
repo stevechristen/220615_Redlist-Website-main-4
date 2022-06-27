@@ -1,0 +1,29 @@
+img {
+    display: block;
+    object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+ 
+}
+
+.img-animal {
+  width:100%;
+}
+
+.svg-icon{
+
+object-fit:contain;
+
+}
+
+.no-image {
+  background: var(--color-black);
+}
+
+.img-full-width {
+  width: 100%;
+}
+

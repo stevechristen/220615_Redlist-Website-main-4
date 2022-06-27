@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Responsive Navigation Menu with Search Bar</title>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- =============================================================================
+   ============================navbar======================================
+ ============================================================================= -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="./index.html"><img src="images/redlist-logo.svg" class="logo"></a>
+            <div class="burger" id="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+            <span class="overlay"></span>
+            <div class="menu" id="menu">
+                <ul class="menu-inner">
+                    <li class="menu-item"><a class="menu-link menu-link-current" href="overview.html">Animals</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">About</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">News</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Take Action</a></li>
+                </ul>
+            </div>
+            <button><i class="bx bx-search search-toggle"></i></button>
+            <form class="search-block">
+                <span><i class="bx bx-arrow-back search-cancel"></i></span>
+                <input type="search" name="search" class="search-input" placeholder="Search here..." autofocus>
+            </form>
+        </nav>
+    </header>
+    <!-- =============================================================================
+   ============================navbar closed======================================
+ ============================================================================= -->
+    <section class="index-stage">
+        <div class="stage-wrapper flex">
+            <div class="stage-content">
+                <h1> Taming wild data for <br> natures wellbeing</h1>
+                <p class="margin-top">The RedList is a powerful tool to inform and categorize action for biodiversity
+                    <br> conservation and
+                    policy change, critical to protecting the natural resources.
+                </p>
+                <a href="overview.html"> <button class="btn btn-accent margin-top flex"> Discover our species
+                        <img src="images/icons/arrow-button.svg" class="btn-arrow btn-arrow-accent">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newscard-wrapper container">
+        <h2> Latest Publications</h2>
+        <div class="grid grid-newscard">
+            <!-- BOX 1 -->
+            <div class="newscard flex white-bg dropshadow round-corner">
+                <img src="images/landingpage/tiger-small.jpg" class="round-corner-top">
+                <div class="newscard-content">
+                    <p class="newscard-title">Assessing Tiger and Prey Populations in Southern Western Forest
+                        Complex,
+                        Thailand</p>
+                    <p class="newscard-text">Within the framework of its project Accelerating Tiger Recovery Along the
+                        Thailand-Myanmar Border ...</p>
+                    <a href="#"> read more</a>
+                </div>
+            </div>
+            <!-- BOX 2 -->
+            <div class="newscard flex white-bg dropshadow round-corner">
+                <img src="images/landingpage/bat-small.jpg" class="round-corner-top">
+                <div class="newscard-content">
+                    <p class="newscard-title">IUCN engages with International Standardization Organisation‘s first move
+                        in the field of biodiversity</p>
+                    <p class="newscard-text">Bringing IUCN expertise, standards, knowledge products and data into the
+                        processes and ...</p>
+                    <a href="#"> read more</a>
+                </div>
+            </div>
+
+            <!-- BOX 3 -->
+            <div class="newscard flex white-bg dropshadow round-corner">
+                <img src="images/landingpage/maned-wolf-small.jpg" class="round-corner-top">
+                <div class="newscard-content">
+                    <p class="newscard-title">Climate change now top threat to natural World Heritage – IUCN report</p>
+                    <p class="newscard-text">Gland, Switzerland, 2 December 2020 (IUCN) – Climate change is now the
+                        biggest threat to natural World Heritage ...</p>
+                    <a href="#"> read more</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="link-centered"> See all news</a>
+    </section>
+    <!-- ============================= ABOUT US ============================= -->
+    <section class="flex-section-wrapper no-margin-bottom">
+        <div class="flex-section about-section">
+            <div class="flex-section-img">
+                <img src="images/landingpage/tiger.jpg" class="img-full-width flex-img">
+            </div>
+            <div class="flex-section-content">
+                <h2 class="flex-section-title margin-bottom">About the redlist</h2>
+                <p class="flex-section-text">The RedList is a powerful tool to inform and catalyse action for
+                    biodiversity
+                    conservation and policy
+                    change, critical to protecting the natural resources. It provides information about range,
+                    population
+                    size, habitat and ecology, use and/or trade, threats, and conservation actions that will help inform
+                    necessary conservation decisions.</p>
+                <a href="overview.html"> <button class="btn btn-accent margin-top flex"> learn more
+                        <img src="images/icons/arrow-button.svg" class="btn-arrow btn-arrow-accent">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= ANIMALS ============================= -->
+    <section class="flex-section-wrapper bg-accent no-margin-bottom">
+        <div class="container">
+            <div class="flex-section animals-section">
+                <div class="flex-section-content">
+                    <h2 class="flex-section-title margin-bottom">Animals</h2>
+                    <p class="flex-section-text">The RedList is a powerful tool to inform and catalyse action for
+                        biodiversity conservation and policy change, critical to protecting the natural resources. It
+                        provides information about range, population size, habitat and ecology, use and/or trade,
+                        threats,
+                        and conservation actions that will help inform necessary conservation decisions.</p>
+                    <a href="overview.html"> <button class="btn margin-top flex"> Discover our species
+                            <img src="images/icons/arrow-button.svg" class="btn-arrow">
+                        </button>
+                    </a>
+                </div>
+
+                <div class="flex-section-img flex-section-card">
+
+                    <div class="animal-cards">
+                        <!--card 1 -->
+                        <div class="animal-card">
+                            <div class="animal-card-header">
+                                <p class="body-text"> Mammalia</p>
+                                <h3 class="animal-card-title">Elasmotherium</h3>
+                                <p class="body-text"> Ailurus fulgens</p>
+                            </div>
+                            <img src="images/detailpage/elasmotherium.jpg" alt="">
+                            <div class="animal-card-info">
+                                <div class="status-circle"> <strong>EX</strong></div>
+                                <p class="animal-card-indicator body-text"> decreasing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUPPORT US SECTION -->
+    <section class="flex-section-wrapper no-margin-bottom">
+        <div class="flex-section support-section">
+            <div class="flex-section-img">
+                <img src="images/landingpage/collage.jpg" class="img-full-width flex-img">
+            </div>
+            <div class="flex-section-content">
+                <h2 class="flex-section-title margin-bottom">About the redlist</h2>
+                <p class="flex-section-text">The RedList is a powerful tool to inform and catalyse action for
+                    biodiversity
+                    conservation and policy
+                    change, critical to protecting the natural resources. It provides information about range,
+                    population
+                    size, habitat and ecology, use and/or trade, threats, and conservation actions that will help inform
+                    necessary conservation decisions.</p>
+                <a href="overview.html"> <button class="btn margin-top flex"> Discover our species
+                        <img src="images/icons/arrow-button.svg" class="btn-arrow">
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+
+                </ul>
+            </div>
+
+            <div class="row">
+                REDLIST © 2022 - All rights reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- JS -->
+<script src="./js/script.js"></script>
+
+</html>
